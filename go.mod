@@ -1,4 +1,4 @@
-module github.com/joeyak/go-escpos
+module github.com/DevLumuz/go-escpos
 
 go 1.18
 

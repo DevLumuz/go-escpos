@@ -10,9 +10,9 @@ import (
 
 	"slices"
 
+	"github.com/DevLumuz/go-escpos"
+	"github.com/DevLumuz/go-escpos/cmd"
 	"github.com/alexflint/go-arg"
-	"github.com/joeyak/go-escpos"
-	"github.com/joeyak/go-escpos/cmd"
 )
 
 func connect(addresses []string) (escpos.Printer, error) {

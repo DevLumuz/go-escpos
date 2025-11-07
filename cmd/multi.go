@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/joeyak/go-escpos"
+	"github.com/DevLumuz/go-escpos"
 )
 
 type MultiPrinter struct {

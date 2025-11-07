@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/alexflint/go-arg"
-	"github.com/joeyak/go-escpos"
+	"github.com/DevLumuz/go-escpos"
 )
 
 type CmdText struct {
