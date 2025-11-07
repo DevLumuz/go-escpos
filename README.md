@@ -182,17 +182,25 @@ Test Windows printing:
 # List printers
 go run ./cmd/test-windows -list
 
+# Run default test (receipt)
+go run ./cmd/test-windows
+
 # Run all tests
 go run ./cmd/test-windows -test all
 
-# Specific test
-go run ./cmd/test-windows -test receipt -printer "Your Printer"
+# Specific tests
+go run ./cmd/test-windows -test receipt
+go run ./cmd/test-windows -test barcode
+go run ./cmd/test-windows -test format
+
+# Specify printer
+go run ./cmd/test-windows -printer "Your Printer Name" -test all
 ```
 
-Test with real hardware:
+Test with real hardware (network/USB):
 
 ```bash
-go run ./cmd/test-printer/
+go run ./cmd/test-printer/ 192.168.1.100:9100
 ```
 
 ## Implementation
