@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/alexflint/go-arg"
 	"github.com/DevLumuz/go-escpos"
+	"github.com/alexflint/go-arg"
 )
 
 type CmdText struct {
